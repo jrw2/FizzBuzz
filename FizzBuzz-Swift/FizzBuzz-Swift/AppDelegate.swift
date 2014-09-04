@@ -36,11 +36,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     func isBuzzed(number: Int) -> Bool {
-        return checkFizzBuzz(number, 3)
+        return checkFizzBuzz(number, checkNumber: 3)
     }
     
     func isFizzed(number: Int) -> Bool {
-        return checkFizzBuzz(number, 5)
+        return checkFizzBuzz(number, checkNumber: 5)
     }
     
     func checkFizzBuzz(number: Int, checkNumber: Int) -> Bool {
